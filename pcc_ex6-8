@@ -1,0 +1,20 @@
+#This is from the book Python Crash Course, and is my answer to exercise 6-8
+koda={
+    'type':'dog',
+    'owners_name':'Sarah'
+}
+nasrany={
+    'type':'horse',
+    'owners_name':'Sarah'
+}
+orange_cat={
+    'type':'cat',
+    'owners_name':'Zack'
+}
+fratello={
+    'type':'dog',
+    'owners_name':'Sally'
+}
+pets=[koda,nasrany,orange_cat,fratello]
+for pet in pets:
+    print(pet['owners_name'] + " owns a " + pet['type'])
