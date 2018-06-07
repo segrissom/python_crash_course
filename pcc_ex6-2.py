@@ -6,8 +6,8 @@ favorite_numbers = {
     'Jimothy': 909009,
     'Simothy': 0
 }
-print("Sally's favorite number is " + favorite_numbers['Sally']+ ".")
-print("Will's favorite number is " + favorite_numbers['Will']+ ".")
-print("Tim's favorite number is " + favorite_numbers['Tim']+ ".")
-print("Jimothy's favorite number is " + favorite_numbers['Jimothy']+ ".")
-print("Simothy's favorite number is " + favorite_numbers['Simothy']+ ".")
+print("Sally's favorite number is " + str(favorite_numbers['Sally'])+ ".")
+print("Will's favorite number is " + str(favorite_numbers['Will'])+ ".")
+print("Tim's favorite number is " + str(favorite_numbers['Tim'])+ ".")
+print("Jimothy's favorite number is " + str(favorite_numbers['Jimothy'])+ ".")
+print("Simothy's favorite number is " + str(favorite_numbers['Simothy'])+ ".")
